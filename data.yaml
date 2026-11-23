@@ -1,0 +1,11 @@
+train: Dataset_Robomaster.v4-train_test_val.yolo26/train/images
+val: Dataset_Robomaster.v4-train_test_val.yolo26/valid/images
+test: Dataset_Robomaster.v4-train_test_val.yolo26/test/images
+
+nc: 4
+
+names:
+  0: Blue Armor
+  1: Car
+  2: Red Armor
+  3: Armor

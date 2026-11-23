@@ -1,0 +1,27 @@
+[project]
+name = "marc-cv"
+version = "0.1.0"
+description = "MARC computer vision: armor plate detection and aiming for the companion computer"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "pyserial",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+marc-cv = "marc_cv.run:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["src"]
+python_files = ["*_tests.py", "test_*.py"]

@@ -1,0 +1,67 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Training data and downloaded dataset archives
+/dataCombined/
+/Dataset_Robomaster.v4-train_test_val.yolo26/
+/FIRSTmerged_dataset/
+/Robomaster.v1i.yolo26/
+/Robomasters.v5i.yolo26/
+/Robomasters.v6i.yolo26/
+/Robomasters.v7i.yolo26/
+/realsense.v1-realsense.yolo26/
+/\[FAR\]Robomaster.v6i.yolo26/
+/\[FAR2\]Robomaster.v6i.yolo26/
+/\[LARGE\]Robomasters.v6i.yolo26/
+/\Dataset_Robomaster.v4-train_test_val.yolo26/
+/\edge_detect/
+/\output/
+/\armor/
+
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.json
+
+# Model checkpoints and exported weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training, prediction, and generated edge-detection output
+/runs/
+/weights/
+/edge_detect/pidinet/data/
+/edge_detect/pidinet/generated_maps/
+/edge_detect/pidinet/trained_models/
+/edge_detect/pidinet/training_logs/
+/edge_detect/pidinet/test/
+/edge_detect/pidinet/.git/
+
+# Video assets and generated videos
+*.avi
+*.AVI
+*.mp4
+*.MP4
+*.m4v
+*.M4V
+*.mkv
+*.MKV
+*.mov
+*.MOV
+*.mpeg
+*.mpg
+*.webm
+*.wmv
+
+# Local metadata
+*:Zone.Identifier
+.DS_Store

@@ -1,0 +1,8 @@
+tracker_type: bytetrack #the algorithm to use
+
+track_high_thresh: 0.2 #threshold to consider object "likely"
+track_low_thresh: 0.01 #Objects below high thresh but above THIS one enters recovery mode
+new_track_thresh: 0.4 #unmatched high confidence passes this thresh to be a new id
+track_buffer: 60 #frames before id is lost
+match_thresh: 0.8 #IoU Boundary. Assigns ID. Higher number means looser (less strict)
+fuse_score: True #defines whether conf val are multipled with IoU distances during data association
